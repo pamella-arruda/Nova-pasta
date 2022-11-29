@@ -1,0 +1,48 @@
+button{
+    text-decoration:none;
+    font-size: 20px;
+    font-family: serif;
+    border-color: white;
+    border-radius: 5px;
+    background-color: rgb(201, 201, 243);
+    padding: 10px;
+    border-style: outset;
+}
+
+button:active{
+    
+}
+
+button:hover{
+    opacity: 0.9;
+    background: linear-gradient(to bottom, rgb(90, 90, 249));
+}
+
+body{
+    font-size: 150%;
+    text-align: center;
+    background-color: rgb(19, 1, 31);
+    margin: 30px;
+}
+
+h3{
+    font-family: serif;
+    color: black;   
+}
+
+.container{
+     background-color: rgb(174, 122, 216);
+     padding: 20px;
+     border-radius: 50px;
+}
+
+input{
+    border-radius:10px;
+    border: none;
+    margin-top: 10px;
+}
+
+hr{
+    border: 1px solid rgb(170, 15, 227);
+
+}
