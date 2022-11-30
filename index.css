@@ -10,7 +10,7 @@ button{
 }
 
 button:active{
-    
+    background-color: rgb(164, 198, 218);
 }
 
 button:hover{
@@ -40,9 +40,18 @@ input{
     border-radius:10px;
     border: none;
     margin-top: 10px;
+    margin: auto;
+    display: block;
 }
 
 hr{
     border: 1px solid rgb(170, 15, 227);
 
+}
+
+#resultado{
+    font-size:xx-large;
+    margin: 10%;
+    
+    
 }
