@@ -46,12 +46,10 @@ input{
 
 hr{
     border: 1px solid rgb(170, 15, 227);
-
 }
 
 #resultado{
     font-size:xx-large;
-    margin: 10%;
-    
-    
+    margin-left: 32%;
+    padding: 35px    
 }
