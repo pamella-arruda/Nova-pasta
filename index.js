@@ -1,9 +1,9 @@
 const calcular = document.getElementById('calcular');
 
 function imc () {
-    const nome = document.getElementById('nome');
-    const altura = document.getElementById('altura');
-    const peso = document.getElementById('peso');
+    const nome = document.getElementById('nome').value;
+    const altura = document.getElementById('altura').value;
+    const peso = document.getElementById('peso').value;
     const resultado = document.getElementById('resultado');
 
 if (nome !== '' && altura !== '' && peso !== ''){
@@ -26,10 +26,10 @@ if (nome !== '' && altura !== '' && peso !== ''){
         classificacao = 'com obesidade morbida. Cuidado!';
     }
 
-    resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${cassificacao}` 
+    resultado.innerHTML = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}` 
 
 }else {
-    resultado.textContent = 'Preencha todos os campos!';
+    resultado.innerHTML = 'Preencha todos os campos!';
 }
 }
     
