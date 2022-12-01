@@ -26,11 +26,11 @@ if (nome !== '' && altura !== '' && peso !== ''){
         classificacao = 'com obesidade morbida. Cuidado!';
     }
 
-    resultado.textContente = `${nome} seu IMC é ${valorIMC} e você está ${cassificação}` 
+    resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${cassificacao}` 
 
 }else {
-    resultado.textContente = 'Preencha todos os campos!';
+    resultado.textContent = 'Preencha todos os campos!';
 }
 }
     
-calcular.addEventListener('clik', imc);
+calcular.addEventListener('click', imc);
